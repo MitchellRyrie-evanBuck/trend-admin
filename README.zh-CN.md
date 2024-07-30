@@ -2,9 +2,9 @@
 <br> 
 <br>
 <img src="./src/assets/images/logo.png" height="140" />
-<h1> Slash Admin </h1>
+<h1> Trend Admin </h1>
 <span style="font-size: 14px">
-  Slash Admin 是一款现代化的后台管理模板，基于 React 18、Vite、Ant Design 和 TypeScript 构建。它旨在帮助开发人员快速搭建功能强大的后台管理系统。
+  Trend Admin 是一款现代化的后台管理模板，基于 React 18、Vite、Ant Design 和 TypeScript 构建。它旨在帮助开发人员快速搭建功能强大的后台管理系统。
 </span>
 
 </div>

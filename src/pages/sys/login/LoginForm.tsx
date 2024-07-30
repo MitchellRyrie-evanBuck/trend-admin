@@ -15,6 +15,7 @@ function LoginForm() {
   const { t } = useTranslation();
   const themeToken = useThemeToken();
   const [loading, setLoading] = useState(false);
+  const [captchaImg, setCaptchaImg] = useState('');
 
   const { loginState, setLoginState } = useLoginStateContext();
   const signIn = useSignIn();
@@ -63,7 +64,7 @@ function LoginForm() {
 
                 <div>
                   <ProTag className="flex-shrink-0">{t('sys.login.password')}:</ProTag>
-                  <strong className=" ml-1" style={{ color: themeToken.colorInfoTextHover }}>
+                  <strong className="ml-1 " style={{ color: themeToken.colorInfoTextHover }}>
                     {DEFAULT_USER.password}
                   </strong>
                 </div>
@@ -85,6 +86,17 @@ function LoginForm() {
         >
           <Input.Password type="password" placeholder={t('sys.login.password')} />
         </Form.Item>
+
+        {/* <Form.Item
+          name="captcha"
+          rules={[{ required: true, message: "请输入验证码" }]}
+        >
+          <Space direction="horizontal" className='w-full'>
+            <Input placeholder={"请输入验证码"} />
+            <img src={captchaImg} alt="captchaImg" className='h-full w-28' />
+          </Space>
+        </Form.Item> */}
+
         <Form.Item>
           <Row>
             <Col span={12}>

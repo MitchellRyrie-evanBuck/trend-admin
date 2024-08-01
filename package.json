@@ -1,9 +1,8 @@
 {
-  "name": "slash-admin",
+  "name": "trend-admin",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://d3george.github.io/react-admin-template",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

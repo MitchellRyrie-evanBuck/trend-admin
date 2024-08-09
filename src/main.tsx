@@ -51,5 +51,4 @@ root.render(
   </HelmetProvider>,
 );
 
-// 🥵 start service worker mock in development mode
 worker.start({ onUnhandledRequest: 'bypass' });
